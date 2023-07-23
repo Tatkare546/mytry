@@ -3,8 +3,13 @@ body {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+<<<<<<< HEAD
   
     background-image: url(https://cdn.suwalls.com/wallpapers/flowers/field-of-yellow-tulips-34137-1920x1200.jpg);
+=======
+    background-image: -o-linear-gradient(1);
+    background-image: url(https://c1.wallpaperflare.com/preview/459/349/316/colorful-flowers-gardens-green.jpg);
+>>>>>>> df98b6e4b6c77edf01f040f641d764b2de0deff7
     background-repeat: no-repeat;
     background-blend-mode:cover;
     
