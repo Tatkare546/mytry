@@ -4,9 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   
-    background-image: url(https://c1.wallpaperflare.com/preview/459/349/316/colorful-flowers-gardens-green.jpg);
+    background-image: url(https://cdn.suwalls.com/wallpapers/flowers/field-of-yellow-tulips-34137-1920x1200.jpg);
     background-repeat: no-repeat;
-    background-size:cover,auto;
+    background-blend-mode:cover;
+    
     margin: 0;
     padding: 0;
     overflow: hidden;
