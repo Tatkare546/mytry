@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Homepage</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+ 
+  
+  
+  <section>
+    <h2> Hey Sayali 👋.</h2>
+    <p> I guess you must be surprised, ya i guess you are not. jo bhi ho,
+    here is my way of asking you for a date, I know tere countless times rejections k baad bhi im still here, vese those countless were countable but mai bhul gaya so countless he
+    and vo indirect or direct mila k 😅, tu bol rahi hogi Chal pakka mat na uske pehele mudde pe atte 😝.
+    july will  end with the next week. i don't know if im pushing much or not but i have that tiny 🤏 bit of hope so iam here with those hope & thodi bohto mehent asking you  
+    
+    </p>
+   
+  
+</body>
+<button onclick="openModal()">what you say?🥺👉👈</button>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h2>will you go out on a Date with me?🌹</h2>
+    <div class="button-container">
+      <button onclick="moveModal('maybe')">Maybe</button>
+      <button onclick="moveModal('no')">No</button>
+      <button onclick="moveModal('yes')">Yes</button>
+    </div>
+  </div>
+</div>
+
+</html>
+
+
+
+<script>
+  function openModal() {
+    document.getElementById("modal").style.display = "block";
+  }
+  
+  function moveModal(option) {
+    var modalContent = document.querySelector(".modal-content");
+  
+    if (option === 'yes') {
+      modalContent.classList.remove('move-left', 'move-right', 'move-up', 'move-down');
+      // Replace "https://www.example.com" with the desired URL
+      window.location.href = "destination-page.html";
+    } else if (option === 'no') {
+      modalContent.classList.add( 'move-up', 'move-down');
+    } else if (option === 'maybe') {
+      var movementOptions = ['move-left', 'move-right'];
+      var randomMovement = movementOptions[Math.floor(Math.random() * movementOptions.length)];
+      modalContent.classList.add(randomMovement);
+    }
+  }
+  
+</script>
